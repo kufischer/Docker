@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  multserver:
+    build: server
+    ports:
+      - 9090:9090
+
+  multclient:
+    build: client
+ 
