@@ -14,9 +14,9 @@ public class MultiplicationClient {
 	    
 	    TTransport transport;
     
-		// transport = new TSocket("host.docker.internal", 9090);
-	    // transport = new TSocket("localhost", 9090);
-	    transport = new TSocket("multserver", 9090);
+	transport = new TSocket("host.docker.internal", 8090);
+	// transport = new TSocket("localhost", 9090);
+	// transport = new TSocket("multserver", 8090);
 	    transport.open();
 
 	    TProtocol protocol = new  TBinaryProtocol(transport);
