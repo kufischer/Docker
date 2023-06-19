@@ -4,7 +4,7 @@ services:
   multserver:
     build: server
     ports:
-      - 9090:9090
+      - 8090:8090
 
   multclient:
     build: client
