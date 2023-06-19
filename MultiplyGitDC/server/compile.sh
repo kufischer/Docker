@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cd /root/aitoc/Docker/MultiplyGitDC/server ; mvn clean dependency:copy-dependencies package
+cd /root/Docker/MultiplyGitDC/server ; mvn clean dependency:copy-dependencies package
