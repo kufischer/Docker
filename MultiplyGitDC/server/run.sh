@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cd /root/aitoc/Docker/MultiplyGitDC/server ; java -cp target/MultiplicationServer-1.0.jar:target/dependency/* MultiplicationServer
+cd /root/Docker/MultiplyGitDC/server ; java -cp target/MultiplicationServer-1.0.jar:target/dependency/* MultiplicationServer
 

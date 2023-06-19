@@ -29,7 +29,7 @@ public class MultiplicationServer {
 
   public static void simple(tutorial.MultiplicationService.Processor processor) {
     try {
-      TServerTransport serverTransport = new TServerSocket(9090);
+      TServerTransport serverTransport = new TServerSocket(8090);
       TServer server = new TSimpleServer(new Args(serverTransport).processor(processor));
 
       System.out.println("Starting the simple server...");
